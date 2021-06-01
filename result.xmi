@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hypergraph:ModularHypergraph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hypergraph="http://evaluation.se.cs.cau.de/hypergraph">
+  <nodes name="test.Target.a ">
+    <derivedFrom xsi:type="hypergraph:MethodTrace"/>
+  </nodes>
+  <nodes name="test.Source.Source ">
+    <derivedFrom xsi:type="hypergraph:MethodTrace"/>
+  </nodes>
+  <nodes name="test.Target.Target">
+    <derivedFrom xsi:type="hypergraph:TypeTrace"/>
+  </nodes>
+  <edges name="test.Source.test">
+    <derivedFrom xsi:type="hypergraph:FieldTrace"/>
+  </edges>
+  <modules name="test.Target" nodes="//@nodes.0 //@nodes.2">
+    <derivedFrom xsi:type="hypergraph:TypeTrace"/>
+  </modules>
+  <modules name="test.Source" nodes="//@nodes.1">
+    <derivedFrom xsi:type="hypergraph:TypeTrace"/>
+  </modules>
+</hypergraph:ModularHypergraph>
