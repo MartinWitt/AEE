@@ -1,7 +1,7 @@
 package test;
 public class Source {
 
-	private int test = Target.test.get().a();
+	private int test = Target.test.a();
 
 	public Source() {
 	}
